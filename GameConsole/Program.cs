@@ -9,25 +9,19 @@ internal class Program
 
 
 
-        int i = 1;
-        while (i > 0)
+      for(int i = 1; i > 0; i++)
         {
-            Console.WriteLine("Press 1(Save) or 2(Load) or 3");
+            Console.WriteLine("-----Press 1(Save/Load) : 4(exit)-----");
             String selectNumbers;
             selectNumbers = Console.ReadLine();
             if (selectNumbers == "1")
             {
-                saveLoad.saveData();
+                saveLoad.saveDataMenu();
             }
-            else if (selectNumbers == "2")
-            {
-                saveLoad.loadData();
-            }
-            else if (selectNumbers == "3")
+            else if (selectNumbers == "4")
             {
                 break;
             }
-            i++;
         }
     }
 }

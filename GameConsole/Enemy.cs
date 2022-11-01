@@ -8,5 +8,6 @@ namespace GameConsole
 {
     public class Enemy
     {
+
     }
 }
