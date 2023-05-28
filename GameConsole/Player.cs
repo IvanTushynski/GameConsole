@@ -8,9 +8,9 @@ namespace GameConsole
 {
     public class Player
     {
-        public int attack = 10;
+        public int attack = 20;
         public int defense = 8;
-        public int health = 20;
+        public int health = 40;
 
         public int level = 1;
         public int expAmount = 0;
